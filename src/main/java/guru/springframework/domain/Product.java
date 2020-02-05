@@ -8,7 +8,7 @@ import java.util.List;
  * Created by jt on 1/26/16.
  */
 public class Product {
-
+//this is model class
     private Integer id;
     private String courseName;
     private String courseSubtitle;
