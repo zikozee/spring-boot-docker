@@ -118,7 +118,7 @@
 					</image>
 					<!--mysql container-->
 					<image>
-						<name>mysql</name>
+						<name>mysql:5.7</name>
 						<alias>mysqldb</alias>
 						<run>
 							<!--expose port for dn-->
@@ -175,7 +175,7 @@
 							</env>
 							<dependsOn>
 								<container>myrabbitmq</container>
-								<container>mysql</container>
+								<container>mysqldb</container>
 							</dependsOn>
 							<wait>
 								<http>
