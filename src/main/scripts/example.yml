@@ -1,0 +1,33 @@
+# This is a comment
+
+soname: value # this is also a comment
+
+anothername: '#value'
+
+#spring.datasource.initial-size=1
+#spring.datasource.max-active=10
+#spring.datasource.min-idle=1
+#spring.datasource.max-idle=5
+spring:
+  datasource:
+    initial-size: 1
+    max-active: 10
+    min-idle: 1
+    max-idle: 5
+
+
+someList:
+- value1: one
+- value2: two
+
+#same as above
+someList2:
+  - value1: one
+  - value2: two
+
+ #List of maps
+anothermapList:
+  - keyvalue: 1
+    value: "my val"
+  - keyvalue: 2
+    value: "my val"
